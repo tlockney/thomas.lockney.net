@@ -1,0 +1,67 @@
+body {
+    background-image: -webkit-linear-gradient(left top, rgb(174,174,174), rgb(200,200,200));
+}
+.profile {
+    background-color: white;
+    padding: 0px;
+}
+.profile_image {
+    background-image: url("/images/tlockney.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-bottom: 100%;
+}
+ul.inline {
+    list-style: none;
+}
+ul.inline > li {
+    display: inline-block;
+}
+.bio {
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+.social-links {
+    text-align: center;
+}
+.social-links .inline {
+    -webkit-padding-start: 0px;
+}
+a.social-link {
+    height: 36px;
+    line-height: 36px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    padding: 10px;
+}
+.SVGInline-svg {
+    height: 36px;
+}
+svg.SVGInline-svg {
+    fill: rgba(54,71,78,.7);
+}
+.heading {
+    box-sizing: border-box;
+    text-align: center;
+}
+.heading .profile_image {
+    margin-bottom: -130px;
+}
+.heading h2 {
+    font-size: 1.4em;
+}
+.name-headline {
+    display: inline-block;
+    display: -moz-inline-box;
+    -moz-box-orient: vertical;
+    vertical-align: top;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.7);
+}
+.body {
+    padding-top: 50px;
+}

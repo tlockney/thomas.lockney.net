@@ -62,3 +62,6 @@ svg.SVGInline-svg {
 .body {
     padding-top: 50px;
 }
+.name {
+    letter-spacing: 2px;
+}
